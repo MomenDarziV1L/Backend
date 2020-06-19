@@ -1,0 +1,8 @@
+.disabl {
+    cursor: not-allowed;
+    color: gray;
+}
+
+.headTit {
+    padding-right:10px;
+}

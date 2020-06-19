@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+* file name: addform.html
+* author: Momen Darzi
+* back-end programeren
+* date: 29-03-2020
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add form</title>
+</head>
+
+<body>
+    <form action="addresult.php" method="POST">     <!-- make form method POST  -->
+        <table>                              
+            <tr>                             
+                <td>Voornaam</td>            
+                <td><input type="text" name="firstname"  ></td>  <!-- input tags -->
+            </tr>
+            <tr>                             
+                <td>Achternaam</td>          
+                <td><input type="text" name="lastname" ></td>   
+            </tr>
+            <tr>                             
+                <td>Email adres</td>         
+                <td><input type="text" name="email" ></td>      
+            </tr>
+            <tr>                             
+                <td>Wachtwoord</td>          
+                <td><input type="text" name="password" ></td>   
+            </tr>
+            <tr>                             
+                <td>Aantal hobby's</td>      
+                <td><input type="text" name="hobbies" ></td>   
+            </tr>
+            <tr>                             
+                <td>Kussens</td>             
+                <td><input type="text" name="pillows" ></td>    
+            </tr>
+            <tr>                             
+                <td>Omschrijving</td>        
+                <td><input type="text" name="description" ></td>  
+            </tr>
+            <tr>                             
+                <td>&nbsp;</td>             
+                <td><input type="submit" value="stuur" ></td>  
+            </tr>
+            </table>
+    </form>
+    <br>
+    <button style='width:150px;' onclick=location.href='overview.php'>Overzicht personen</button>       <!-- overview page -->
+    <br>
+    <br>
+    <button style='width:150px;'onclick=location.href='searchform.php'>Zoeken op personen</button>      <!-- search page -->
+    <br>
+    <br>
+    <button style='width:150px;' onclick=location.href='index.html'>Home page</button>       <!-- home page  -->
+
+</body>
+
+</html>
